@@ -8,7 +8,11 @@ int main()
     {
         printf("Uppercase");
     }
-    else{
+    else if(a>96 && a<126)
+    {
         printf("Lowercase");
+    }
+    else{
+        printf("Invalid");
     }
 }
