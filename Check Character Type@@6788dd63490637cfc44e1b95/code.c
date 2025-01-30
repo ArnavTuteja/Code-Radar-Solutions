@@ -11,14 +11,16 @@ int main()
         {
             printf("Vowel");
         }
-        else{
+        else
+        {
             printf("Consonant");
         }
     }
-    else if(isdigit(ch)){
-                printf("Digit");
+    else if(isdigit(ch))
+    {
+        printf("Digit");
     }
     else{
-        printf("Special Charecter");
+        printf("Special Character");
     }
 }
