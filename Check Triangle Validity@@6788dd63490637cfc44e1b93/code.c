@@ -4,15 +4,13 @@ int main()
 {
      int a,b,c,s1,s2,s3;
      scanf("%d %d %d",&a,&b,&c);
-     s1=a+b;
-     s2=b+c;
-     s3=a+c;
-     if(s1>c && s2>a && s3>b)
+     if(a+b>c || b+c>a || a+c>b)
      {
         printf("Valid");
      }
      
-     else{
+    else
+    {
         printf("Invalid"):
-     }
-     }
+    }
+}
