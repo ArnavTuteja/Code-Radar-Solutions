@@ -8,7 +8,7 @@ int main() {
     char op;
 
     // Taking input: two integers and an operator
-    printf("Enter two numbers and an operator (+, -, *, /): ");
+   
     scanf("%d %d %c", &num1, &num2, &op);
 
     switch (op) {
