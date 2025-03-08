@@ -8,6 +8,6 @@ int main()
         printf("In Range");
     }
     else{
-        printf("Out of range");
+        printf("Out of Range");
     }
 }
