@@ -10,7 +10,7 @@ int isPrime(int n) {
 
 int main() {
     int num;
-    printf("Enter a number: ");
+  
     scanf("%d", &num);
 
     if (isPrime(num))
