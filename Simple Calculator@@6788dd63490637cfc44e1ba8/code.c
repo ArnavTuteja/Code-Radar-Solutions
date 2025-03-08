@@ -13,22 +13,22 @@ int main() {
 
     switch (op) {
         case '+':
-            printf("%d\n", num1 + num2);
+            printf("%d", num1 + num2);
             break;
         case '-':
-            printf("%d\n", num1 - num2);
+            printf("%d", num1 - num2);
             break;
         case '*':
-            printf("%d\n", num1 * num2);
+            printf("%d", num1 * num2);
             break;
         case '/':
             if (num2 != 0)
-                printf("%d\n", num1 / num2);
+                printf("%d", num1 / num2);
             else
-                printf("error\n"); // Handling division by zero
+                printf("error"); // Handling division by zero
             break;
         default:
-            printf("error\n"); // Invalid operator
+            printf("error"); // Invalid operator
     }
 
     return 0;
