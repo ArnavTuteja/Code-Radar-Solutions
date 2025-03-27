@@ -11,7 +11,7 @@ int main()
         }
         for(k=(2*i)-1;k>=0;k--)
         {
-            printf("*"\n);
+            printf("*\n");
         }
     }
 }
