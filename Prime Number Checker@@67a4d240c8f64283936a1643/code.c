@@ -11,17 +11,3 @@ int isPrime(int num)
     return 1;
 }
 
-int main() 
-{
-    int t;
-    if (scanf("%d", &t) != 1) return 1; // Check if input is valid
-
-    while (t--) {
-        int num;
-        if (scanf("%d", &num) != 1) return 1; // Check if input is valid
-        printf("%d\n", isPrime(num));
-    }
-
-    return 0;
-}
-
